@@ -1,0 +1,25 @@
+@media only screen and (min-width: 575px) {
+    a{
+        text-decoration: none;
+        color: lightgray;
+
+    }
+    #header__navbar--container{
+        justify-content: space-around;
+    }
+    #header__nav--div{
+        width: 15%;
+    }
+    .header__navbar--request{
+        background: linear-gradient(90deg, rgba(38,245,98,1) 0%, rgba(97,200,174,1) 65%);
+        border: 0;
+        border-radius: 20px;
+        
+        a{
+            color: white;
+        }
+    }
+   
+    
+    
+}

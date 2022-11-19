@@ -1,0 +1,25 @@
+@media only screen and (max-width: 575px) {
+  a {
+    text-decoration: none;
+    color: lightgray;
+  }
+  #header__navbar--resquet {
+    display: none;
+  }
+  #header__navbar--container {
+    justify-content: start;
+  }
+  #btn {
+    height: 20px;
+    width: 20px;
+    background: url("../images/icon-hamburger.svg") no-repeat;
+  }
+  #btn::-moz-selection {
+    width: 100px;
+    background-color: black;
+  }
+  #btn::selection {
+    width: 100px;
+    background-color: black;
+  }
+}/*# sourceMappingURL=mobile.css.map */
